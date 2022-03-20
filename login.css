@@ -1,0 +1,41 @@
+.log-in-form input {
+  background: none;
+  border: none;
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.white::placeholder {
+  color: white;
+  opacity: 1;
+}
+.black::placeholder {
+  color: black;
+  opacity: 1;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.white:focus {
+  outline: dashed white 2px;
+}
+.black:focus {
+  outline: dashed black 2px;
+}
+.log-out-btn {
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  box-shadow: 10px 10px 20px black;
+  border: 2px solid black;
+  font-weight: 700;
+}

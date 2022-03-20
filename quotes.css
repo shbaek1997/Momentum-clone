@@ -1,0 +1,15 @@
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 20px;
+  position: absolute;
+  bottom: 1%;
+  margin: 50px;
+}
+/* 할꺼: quotes 에서 이미지랑 quote연관 지어서 같은 영화 이미지가 나오게 하기 + 이미지 마다 칼라 코드 정해야함*/
+.quotes .hidden {
+  display: none;
+}

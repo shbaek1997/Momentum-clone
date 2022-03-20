@@ -1,0 +1,16 @@
+.date {
+  margin-bottom: 10px;
+}
+.clock {
+  margin-bottom: 30px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  background-color: none;
+}
